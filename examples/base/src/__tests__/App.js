@@ -5,7 +5,7 @@ import * as renderer from 'react-test-renderer';
 // but during development, it needs to be pulled from lib
 import { MockedProvider } from 'react-apollo/lib/test-utils';
 
-import { addTypenameToDocument } from 'apollo-client';
+import { addTypenameToDocument } from '@edtechfoundry/apollo-client';
 
 import {
   HERO_QUERY,

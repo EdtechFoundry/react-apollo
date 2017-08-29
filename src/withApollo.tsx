@@ -23,7 +23,7 @@ import ApolloClient, {
   UpdateQueryOptions,
   FetchMoreQueryOptions,
   SubscribeToMoreOptions,
-} from 'apollo-client';
+} from '@edtechfoundry/apollo-client';
 
 import {
   // GraphQLResult,

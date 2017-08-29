@@ -2,8 +2,8 @@ import * as React from 'react';
 import * as renderer from 'react-test-renderer';
 import gql from 'graphql-tag';
 
-import ApolloClient from 'apollo-client';
-import { ApolloError } from 'apollo-client/errors';
+import ApolloClient from '@edtechfoundry/apollo-client';
+import { ApolloError } from '@edtechfoundry/apollo-client/errors';
 
 declare function require(name: string)
 

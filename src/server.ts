@@ -5,7 +5,7 @@ import {
   StatelessComponent,
 } from 'react';
 import * as ReactDOM from 'react-dom/server';
-import ApolloClient, { ApolloQueryResult } from 'apollo-client';
+import ApolloClient, { ApolloQueryResult } from '@edtechfoundry/apollo-client';
 const assign = require('object-assign');
 
 export interface Context {

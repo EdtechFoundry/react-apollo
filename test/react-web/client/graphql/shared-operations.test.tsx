@@ -2,7 +2,7 @@ import * as React from 'react';
 import * as renderer from 'react-test-renderer';
 import gql from 'graphql-tag';
 
-import ApolloClient from 'apollo-client';
+import ApolloClient from '@edtechfoundry/apollo-client';
 
 const TestUtils = require('react-dom/test-utils');
 

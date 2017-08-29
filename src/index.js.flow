@@ -11,7 +11,7 @@ import type {
   SubscribeToMoreOptions,
   PureQueryOptions,
   MutationUpdaterFn,
-} from 'apollo-client';
+} from '@edtechfoundry/apollo-client';
 import type { Store } from 'redux';
 import type { DocumentNode, VariableDefinitionNode } from 'graphql';
 
@@ -21,7 +21,7 @@ import { compose } from 'redux';
 import gql from 'graphql-tag';
 
 // export everything from apollo-client
-export * from 'apollo-client';
+export * from '@edtechfoundry/apollo-client';
 export { gql, compose };
 
 declare type StatelessComponent<P> = (props: P) => ?React$Element<any>;

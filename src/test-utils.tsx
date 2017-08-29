@@ -1,11 +1,11 @@
 import * as React from 'react';
-import ApolloClient from 'apollo-client';
+import ApolloClient from '@edtechfoundry/apollo-client';
 
 import {
   NetworkInterface,
   Request,
   SubscriptionNetworkInterface,
-} from 'apollo-client';
+} from '@edtechfoundry/apollo-client';
 
 import { ExecutionResult, DocumentNode } from 'graphql';
 

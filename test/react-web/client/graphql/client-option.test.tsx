@@ -6,7 +6,10 @@ import * as ReactDOM from 'react-dom';
 import * as renderer from 'react-test-renderer';
 import { mount, shallow } from 'enzyme';
 import gql from 'graphql-tag';
-import ApolloClient, { ApolloError, ObservableQuery } from 'apollo-client';
+import ApolloClient, {
+  ApolloError,
+  ObservableQuery,
+} from '@edtechfoundry/apollo-client';
 import { mockNetworkInterface } from '../../../../src/test-utils';
 import { ApolloProvider, graphql } from '../../../../src';
 import { ObservableQueryRecycler } from '../../../../src/queryRecycler';

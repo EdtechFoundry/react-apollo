@@ -7,7 +7,7 @@ import { Provider } from 'react-redux';
 declare function require(name: string)
 import * as TestUtils from 'react-dom/test-utils';
 
-import ApolloClient from 'apollo-client';
+import ApolloClient from '@edtechfoundry/apollo-client';
 
 import gql from 'graphql-tag';
 

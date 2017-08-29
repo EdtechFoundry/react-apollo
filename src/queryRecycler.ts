@@ -1,4 +1,4 @@
-import { ObservableQuery, Subscription } from 'apollo-client';
+import { ObservableQuery, Subscription } from '@edtechfoundry/apollo-client';
 
 import { QueryOpts } from './types';
 

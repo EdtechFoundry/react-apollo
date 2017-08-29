@@ -4,7 +4,7 @@ import { Component } from 'react';
 
 import { Store } from 'redux';
 
-import ApolloClient, { ApolloStore } from 'apollo-client';
+import ApolloClient, { ApolloStore } from '@edtechfoundry/apollo-client';
 import QueryRecyclerProvider from './QueryRecyclerProvider';
 
 const invariant = require('invariant');

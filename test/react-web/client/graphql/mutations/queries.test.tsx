@@ -3,7 +3,7 @@ import * as renderer from 'react-test-renderer';
 import gql from 'graphql-tag';
 import assign = require('object-assign');
 
-import ApolloClient from 'apollo-client';
+import ApolloClient from '@edtechfoundry/apollo-client';
 
 declare function require(name: string)
 

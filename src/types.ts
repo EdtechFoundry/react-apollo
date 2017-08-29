@@ -12,9 +12,9 @@ import ApolloClient, {
   UpdateQueryOptions,
   FetchMoreQueryOptions,
   SubscribeToMoreOptions,
-} from 'apollo-client';
-import { PureQueryOptions } from 'apollo-client/core/types';
-import { MutationUpdaterFn } from 'apollo-client/core/watchQueryOptions';
+} from '@edtechfoundry/apollo-client';
+import { PureQueryOptions } from '@edtechfoundry/apollo-client/core/types';
+import { MutationUpdaterFn } from '@edtechfoundry/apollo-client/core/watchQueryOptions';
 
 import { ExecutionResult, DocumentNode } from 'graphql';
 

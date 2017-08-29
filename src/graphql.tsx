@@ -14,7 +14,7 @@ import ApolloClient, {
   Subscription,
   ApolloStore,
   ApolloQueryResult,
-} from 'apollo-client';
+} from '@edtechfoundry/apollo-client';
 
 import { parser, DocumentType } from './parser';
 import { ObservableQueryRecycler } from './queryRecycler';

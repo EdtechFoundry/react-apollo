@@ -2,7 +2,7 @@ import * as React from 'react';
 import * as renderer from 'react-test-renderer';
 import gql from 'graphql-tag';
 
-import ApolloClient, { createFragment } from 'apollo-client';
+import ApolloClient, { createFragment } from '@edtechfoundry/apollo-client';
 
 declare function require(name: string)
 
