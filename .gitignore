@@ -40,3 +40,4 @@ package-lock.json
 # flow
 !flow-typed/npm 
 
+.idea
